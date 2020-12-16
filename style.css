@@ -52,6 +52,11 @@ body {
     font-size: 1rem;
     font-family:'Love Ya Like A Sister', cursive;
   }
+
+  .offwhite-text{
+      color: var(--off-white);
+      font-weight: bold;
+  }
   
 /* button */
   #btn-translate {
