@@ -31,6 +31,8 @@ body {
     color: black;
 }
   
+
+/* text area */
   .txtarea-container{
     padding-left: 3rem;
     padding-bottom: 5rem;
@@ -51,7 +53,7 @@ body {
     font-family:'Love Ya Like A Sister', cursive;
   }
   
-  
+/* button */
   #btn-translate {
     display: block;
     margin: auto;
@@ -68,11 +70,7 @@ body {
     background-color: var(--off-white);
   }
   
-  .offwhite-text{
-      color: var(--off-white);
-      font-weight: bold;
-  }
-
+/* output */
   .output-container{
       padding-top: 2.5rem;
       max-width: 250px;
