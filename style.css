@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+
+:root {
+    --primary-color:#F59E0B;
+    --off-white: #F4F4F5;
+}
+
+body {
+    background-image: url("images/minion1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Love Ya Like A Sister', cursive;
+    margin: 0;
+   }
+
+
+/* Header    */
+.header-topleft{
+  padding-right: 40%;
+  padding-left: 1%;
+}
+
+.header {
+    background-color: var(--primary-color);
+    padding: 1rem 0.8rem;
+    border-radius: 2.5rem;
+    width: 60%;
+    text-align: center;
+    color: black;
+}
+  
+
+/* text area */
+  .txtarea-container{
+    padding-left: 3rem;
+    padding-bottom: 5rem;
+    max-width: 200px;
+    margin: auto;
+  }
+
+  #txt-input{
+    opacity: 0.8;
+    background-color: white;
+    border-radius: 20px;
+    height: 6rem;
+    width: 20rem;
+    padding: 20px;
+    margin: none;
+    border: none;
+    font-size: 1rem;
+    font-family:'Love Ya Like A Sister', cursive;
+  }
+
+  .offwhite-text{
+      color: var(--off-white);
+      font-weight: bold;
+  }
+  
+/* button */
+  #btn-translate {
+    display: block;
+    margin: auto;
+    height: 3rem;
+    font-size: large;
+    padding: 15px 10px;
+    font-family:"Kalam", cursive;
+    border-radius: 12px;
+    font-weight: bold;
+    background-color: var(--primary-color);
+  }
+
+  #btn-translate:hover{
+    background-color: var(--off-white);
+  }
+  
+/* output */
+  .output-container{
+      padding-top: 2.5rem;
+      max-width: 250px;
+      margin: auto;
+  }
+
+  #output {
+    opacity: 0.5;
+    border: none;
+    padding: 20px;
+    border-radius: 20px;
+    height: 10rem;
+    width: 20rem;
+    background-color: white;
+    display: block;
+    font-weight: bold;
+    color:#171717;
+  }
+
+
+/** footers **/
+.footer {
+    position: fixed;
+    bottom: 0;
+    padding: 1rem;
+    border-radius: 2.5rem;
+    width: 20%;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+.footer-rightCorner{
+    padding-left: 77%;
+}
+
+.footer .link {
+  color: var(--off-white);
+  font-weight: bold;
+  font-size: large;
+  padding-bottom: 0.5rem;
+  /* box-sizing: border-box; */
+  text-decoration: none;
+  padding: 1rem 0.5rem;
+}
+
+.footer .link:hover{
+  color: red;
+}
+
+mark {
+    padding: 0.5rem; 
+    border-radius: 1rem;
+  }
+
